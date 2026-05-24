@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Alex_Nails
 
-const CACHE_NAME = 'alexnails-v29';
+const CACHE_NAME = 'alexnails-v25';
 const urlsToCache = [
   '/alexnails/',
   '/alexnails/index.html',
