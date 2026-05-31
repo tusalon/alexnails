@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Alex_Nails
 
-const CACHE_NAME = 'alexnails-v29';
+const CACHE_NAME = 'alexnails-v47';
 const urlsToCache = [
   '/alexnails/',
   '/alexnails/index.html',
@@ -17,7 +17,14 @@ const urlsToCache = [
   '/alexnails/icons/icon-152x152.png',
   '/alexnails/icons/icon-192x192.png',
   '/alexnails/icons/icon-384x384.png',
-  '/alexnails/icons/icon-512x512.png'
+  '/alexnails/icons/icon-512x512.png',
+  '/alexnails/vendor/react.production.min.js',
+  '/alexnails/vendor/react-dom.production.min.js',
+  '/alexnails/vendor/babel.min.js',
+  '/alexnails/vendor/bcrypt.min.js',
+  '/alexnails/vendor/tailwind-browser.js',
+  '/alexnails/vendor/lucide/lucide.css',
+  '/alexnails/vendor/lucide/lucide.woff2'
 ];
 
 // ============================================
